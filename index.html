@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google fonts link -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap"
+    />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Satisfy&display=swap"
+    />
+    <!-- Css file links -->
+    <!-- Normalize css file -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font awesome link -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Style css file -->
+    <link rel="stylesheet" href="css/style.css" />
+    <title>Awesome Designs</title>
+  </head>
+  <body>
+    <!-- Start setting box -->
+    <div class="setting-box">
+      <div class="toggle-icon">
+        <i class="fas fa-cog"></i>
+      </div>
+      <div class="setting-content">
+        <div class="options-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li data-color="#16bb76" class="active"></li>
+            <li data-color="#e90e4f"></li>
+            <li data-color="#15c4ad"></li>
+            <li data-color="#d89822"></li>
+            <li data-color="#b41cb9"></li>
+          </ul>
+        </div>
+        <div class="options-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-btn">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="options-box">
+          <h4>Bullets Options</h4>
+          <div class="bullet-option">
+            <span class="yes active" data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <button class="reset-btn">Reset Options</button>
+      </div>
+    </div>
+    <!-- End setting box -->
+
+    <!-- Start nav bullets section -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".time-line">
+        <div class="tooltip">Time Line</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Our Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonails">
+        <div class="tooltip">Testimonails</div>
+      </div>
+    </div>
+    <!-- End nav bullets section -->
+
+    <!-- Start landing page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Awesome <span>Designs</span></div>
+          <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#" data-section=".landing-page" class="active">Home</a>
+              </li>
+              <li><a href="#" data-section=".about">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".time-line">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonails">Testimonalis</a></li>
+            </ul>
+            <div class="toggle-btn">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+        <div class="intro-text">
+          <h1 class="uppercase">We are <span>creative</span> designers</h1>
+          <p>
+            Providing you amazing websites and Apps, our developers are ready to
+            offer customers website design and development of any complex
+            design, structure and functionality according to your needs
+          </p>
+        </div>
+      </div>
+    </div>
+    <!-- End landing page -->
+
+    <!-- Start about us section -->
+    <section class="about">
+      <div class="container">
+        <div class="about-us-box">
+          <div class="info-box">
+            <h2 class="uppercase">About Us</h2>
+            <p>
+              Providing you amazing websites and Apps, our developers are ready
+              to offer customers website design and development of any complex
+              design, structure and functionality according to your needs
+            </p>
+          </div>
+          <div class="img-box">
+            <img src="img/web-illustration.png" alt="Illustration vector" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End about us section -->
+
+    <!-- Start skills section -->
+    <section class="skills">
+      <div class="container">
+        <div class="our-skills">
+          <h2 class="uppercase">Our Skills</h2>
+          <div class="skill-box">
+            <div class="skill-name uppercase">HTML</div>
+            <div class="skill-progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">CSS</div>
+            <div class="skill-progress">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Javascript</div>
+            <div class="skill-progress">
+              <span data-progress="70%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Python</div>
+            <div class="skill-progress">
+              <span data-progress="80%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">PHP</div>
+            <div class="skill-progress">
+              <span data-progress="70%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">MySQL</div>
+            <div class="skill-progress">
+              <span data-progress="60%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End skills section -->
+
+    <!-- Start gallery section -->
+    <section class="gallery">
+      <div class="container">
+        <h2 class="uppercase">Our Gallery</h2>
+        <div class="img-box">
+          <img src="img/01.png" alt="Image One" />
+          <img src="img/02.png" alt="Image Two" />
+          <img src="img/03.png" alt="Image Three" />
+          <img src="img/04.png" alt="Image Four" />
+          <img src="img/05.png" alt="Image Five" />
+          <img src="img/06.png" alt="" />
+          <img src="img/07.png" alt="" />
+          <img src="img/08.png" alt="" />
+          <img src="img/09.png" alt="" />
+          <img src="img/10.png" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- End gallery section -->
+
+    <!-- Start time line section -->
+    <div class="time-line">
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2018</div>
+          <div class="left">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2021</div>
+          <div class="left">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>Amazing Design</h3>
+              <p>
+                Providing you amazing websites and Apps, our developers are
+                ready to offer customers website design and development of any
+                complex design, structure and functionality according to your
+                needs
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End time line section -->
+
+    <!-- Start features section  -->
+    <section class="features">
+      <h2 class="uppercase">our features</h2>
+      <div class="container">
+        <div class="feat-content">
+          <div class="feat-box">
+            <img src="img/Icon_02.png" alt="Development" />
+            <h4>Development</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+          <div class="feat-box">
+            <img src="img/Icon_01.png" alt="Marketing" />
+            <h4>Marketing</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+          <div class="feat-box">
+            <img src="img/Icon_03.png" alt="Mobile Developing" />
+            <h4>Mobile Developing</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+          <div class="feat-box">
+            <img src="img/Icon_04.png" alt="Hosting" />
+            <h4>Hosting</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+          <div class="feat-box">
+            <img src="img/Icon_05.png" alt="Seo" />
+            <h4>Seo</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+          <div class="feat-box">
+            <img src="img/Icon_06.png" alt="Cloud" />
+            <h4>Cloud and services</h4>
+            <p>
+              We are powerfull team, Design a stunning websites and Application
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End features section  -->
+
+    <!-- Start testimonials section -->
+    <section class="testimonails">
+      <div class="container">
+        <h2 class="uppercase">what they say about us</h2>
+        <div class="test-content">
+          <div class="test-box">
+            <p>Amazing design i really glad that i worked with your team</p>
+            <div class="person-info">
+              <img src="https://placehold.it/80/ddd" alt="" />
+              <h4>Shaymaa</h4>
+              <p>Front end developer</p>
+            </div>
+          </div>
+          <div class="test-box">
+            <p>Amazing design i really glad that i worked with your team</p>
+            <div class="person-info">
+              <img src="https://placehold.it/80/ddd" alt="" />
+              <h4>Shaymaa</h4>
+              <p>Front end developer</p>
+            </div>
+          </div>
+          <div class="test-box">
+            <p>Amazing design i really glad that i worked with your team</p>
+            <div class="person-info">
+              <img src="https://placehold.it/80/ddd" alt="" />
+              <h4>Shaymaa</h4>
+              <p>Front end developer</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- End testimoniales section -->
+
+    <!-- Start contact us section -->
+    <section class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2 class="uppercase">conact us</h2>
+        <form>
+          <div class="left">
+            <input type="text" name="text" placeholder="Type your name" />
+            <input type="number" name="number" placeholder="Type your Phone" />
+            <input type="email" name="email" placeholder="Type your email" />
+            <input type="text" name="subject" placeholder="Subject" />
+          </div>
+          <div class="right">
+            <textarea name="massage" placeholder="Your massage"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <!-- End contact us section -->
+
+    <!-- Start footer section -->
+    <footer>Created by <span>Shayma</span> 2020</footer>
+    <!-- End footer section -->
+
+    <!-- Javascript files -->
+    <script src="js/main.js"></script>
+  </body>
+</html>
